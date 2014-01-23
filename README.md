@@ -1,7 +1,7 @@
 Lab1
 ====
 
-#Truth table 
+###Truth table 
 Inputs are A,B,C
 Outputs are X,Y,Z
 
@@ -16,7 +16,7 @@ Outputs are X,Y,Z
 | 1 | 1 | 0 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 0 | 0 | 1 |
 
-#Value of results
+###Value of results
 Inputs are A,B,C
 Outputs are X,Y,Z
 
