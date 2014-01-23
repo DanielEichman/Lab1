@@ -15,7 +15,8 @@ Outputs are X,Y,Z
 | 1 | 0 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 0 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 0 | 0 | 1 |
-
+###Screen shot of results
+![alt tag](https://github.com/DanielEichman/Lab1/raw/master/screenshot.JPG)
 ###Value of results
 Inputs are A,B,C
 Outputs are X,Y,Z
