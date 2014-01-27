@@ -50,6 +50,7 @@ For the three bit test case I tested every single case, and the results are show
 | 1 | 1 | 1 | 0 | 0 | 1 |
 In short all cases were tested and they all worked as expected.
 For the 8-bit cases a selected few cases were tested and they all passed too. Below are the cases. 
+
 | Input  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |--------|---|---|---|---|---|---|---|---|
 | Output |   | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
