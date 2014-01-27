@@ -31,5 +31,8 @@ Outputs are X,Y,Z
 | 1 | 0 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 0 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 0 | 0 | 1 |
-
+###Explination of testbench results
 The two tables above match perfectl. This means that my ciruct is correct and can be created. 
+###Debugging
+###Testing 
+###Final Schematic
