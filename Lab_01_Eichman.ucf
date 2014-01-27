@@ -1,0 +1,28 @@
+# ==== Slide Switches (SW) ====
+#NET "C" LOC = "G18"; # Type = INPUT, Sch name = SW0
+#NET "B" LOC = "H18"; # Type = INPUT, Sch name = SW0
+#NET "A" LOC = "K18"; # Type = INPUT, Sch name = SW0
+
+NET "inpt<0>" LOC = "G18"; # Type = INPUT, Sch name = SW0
+NET "inpt<1>" LOC = "H18"; # Type = INPUT, Sch name = SW0
+NET "inpt<2>" LOC = "K18"; # Type = INPUT, Sch name = SW0
+NET "inpt<3>" LOC = "K17"; # Type = INPUT, Sch name = SW0
+NET "inpt<4>" LOC = "L14"; # Type = INPUT, Sch name = SW0
+NET "inpt<5>" LOC = "L13"; # Type = INPUT, Sch name = SW0
+NET "inpt<6>" LOC = "N17"; # Type = INPUT, Sch name = SW0
+NET "inpt<7>" LOC = "R17"; # Type = INPUT, Sch name = SW0
+
+
+# LED outputs constraints
+#NET "Z" LOC = "J14"; # Type = INPUT, Sch name = SW0
+#NET "X" LOC = "J15"; # Type = INPUT, Sch name = SW0
+#NET "Y" LOC = "K15"; # Type = INPUT, Sch name = SW0
+
+NET "oput<0>" LOC = "J14"; # Type = INPUT, Sch name = SW0
+NET "oput<1>" LOC = "J15"; # Type = INPUT, Sch name = SW0
+NET "oput<2>" LOC = "K15"; # Type = INPUT, Sch name = SW0
+NET "oput<3>" LOC = "K14"; # Type = INPUT, Sch name = SW0
+NET "oput<4>" LOC = "E17"; # Type = INPUT, Sch name = SW0
+NET "oput<5>" LOC = "P15"; # Type = INPUT, Sch name = SW0
+NET "oput<6>" LOC = "F4"; # Type = INPUT, Sch name = SW0
+NET "oput<7>" LOC = "R4"; # Type = INPUT, Sch name = SW0
