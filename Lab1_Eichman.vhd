@@ -19,6 +19,7 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -30,39 +31,44 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity Lab1_Eichman is
-	Port(A:in STD_LOGIC;
-		  B:in STD_LOGIC;
-		  C:in STD_LOGIC;
-		  X:out STD_LOGIC;
-		  Y:out STD_LOGIC;
-		  Z:out STD_LOGIC);
+--	Port(A:in STD_LOGIC;
+--		  B:in STD_LOGIC;
+--		  C:in STD_LOGIC;
+--		  X:out STD_LOGIC;
+--		  Y:out STD_LOGIC;
+--		  Z:out STD_LOGIC);
+signal inpt: std_logic_vector( 7 downto 0);
+signal oput: std_logic_vector( 7 downto 0);
 end Lab1_Eichman;
 
 architecture Behavioral of Lab1_Eichman is
---for all
-signal A_NOT,B_NOT,C_NOT: STD_LOGIC;
---for X
-signal D,E,F,G,H: STD_LOGIC;
---for Y
-signal I,J: STD_LOGIC;
---for Z
+----for all
+--signal A_NOT,B_NOT,C_NOT: STD_LOGIC;
+----for X
+--signal D,E,F,G,H: STD_LOGIC;
+----for Y
+--signal I,J: STD_LOGIC;
+----for Z
 begin
---for all
-A_NOT <= not A;
-B_NOT <= not B;
-C_NOT <= not C;
---for X
-D<=A_NOT and C;
-E<=D or F;
-F<=A_NOT and B;
-G<=A and B_NOT;
-H<=G and C_NOT;
-X<=E or H;
---for Y
-I<=B_NOT and C;
-J<=B and C_NOT;
-Y<=I or J;
---for Z
-Z<=C;
+----for all
+--A_NOT <= not A;
+--B_NOT <= not B;
+--C_NOT <= not C;
+----for X
+--D<=A_NOT and C;
+--E<=D or F;
+--F<=A_NOT and B;
+--G<=A and B_NOT;
+--H<=G and C_NOT;
+--X<=E or H;
+----for Y
+--I<=B_NOT and C;
+--J<=B and C_NOT;
+--Y<=I or J;
+----for Z
+--Z<=C;
+--oput <= (not inpt);
+--oput<=oput+1;
+oput <= std_logic_vector(unsigned(not inpt) + 1);
 end Behavioral;
 
