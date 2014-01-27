@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 -- Company: 
 -- Engineer:
---
+--	
 -- Create Date:   23:32:27 01/22/2014
 -- Design Name:   
 -- Module Name:   C:/Users/C16Daniel.Eichman/Documents/AFA/ECE281Dir/Lab1/Lab1_testbench_Eichman.vhd
@@ -24,6 +24,7 @@
 -- that these types always be used for the top-level I/O of a design in order
 -- to guarantee that the testbench will bind correctly to the post-implementation 
 -- simulation model.
+-- This is somemore testing
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
