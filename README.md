@@ -36,3 +36,4 @@ The two tables above match perfectl. This means that my ciruct is correct and ca
 ###Debugging
 ###Testing 
 ###Final Schematic
+![alt tag](https://raw2.github.com/DanielEichman/Lab1/master/FinalSchematic.jpg)
