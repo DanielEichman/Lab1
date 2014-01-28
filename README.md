@@ -1,6 +1,6 @@
 Lab1
 ====
-
+##Prelab
 ###Truth table 
 Inputs are A,B,C
 Outputs are X,Y,Z
@@ -33,6 +33,8 @@ Outputs are X,Y,Z
 | 1 | 1 | 1 | 0 | 0 | 1 |
 ###Explination of testbench results
 The two tables above match perfectl. This means that my ciruct is correct and can be created. 
+
+##Prelab
 ###Debugging
 Initially there were no errors after testing it with the test bench. However after I implemented the design there were some errors. At first I couldn't figure out what the issue was. After playing around with it some more I realized that the MSB was actually the one on the right for both the switch and LED. I changed the .ucf file and implemented the program again and it worked flawlessly after that.
 ###Testing 
