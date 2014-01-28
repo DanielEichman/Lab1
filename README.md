@@ -71,3 +71,5 @@ Case 3:Passed
 
 ###Final Schematic
 ![alt tag](https://raw2.github.com/DanielEichman/Lab1/master/FinalSchematic.jpg)
+###Conclusion
+In the first part of the lab we implement 3 bit 2’s complement. We started by created the truth table then simplified it using K-maps. Finally we created a schematic and implemented it with VHDL. Then we ran it on my Nexys 2. After successfully implementing the 3 bit we moved on to trying to implement an 8 bit system. To do this we used std_logic to create 2 8-bit vectors one for input and the other for the output. Then we noted the input and added 1. This also worked well after some syntax errors. Overall I learnt the basics of VHDL and feel more confident using VHDL.
